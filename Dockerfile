@@ -1,4 +1,6 @@
 FROM maven:3-jdk-8-alpine
+LABEL "Maintainer"="MrBiTs"
+LABEL "e-mail"="mrbits.dcf@gmail.com"
 
 RUN \
   apk update && \
