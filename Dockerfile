@@ -1,7 +1,7 @@
 FROM maven:3-jdk-8-alpine
 LABEL "Maintainer"="MrBiTs"
 LABEL "e-mail"="mrbits.dcf@gmail.com"
-LABEL "version"="0.1.0"
+LABEL "version"="0.1.1"
 
 RUN \
   apk update && \
